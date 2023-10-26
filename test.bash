@@ -12,7 +12,7 @@ ret=0
 ## I/O TEST ##
 out=$(seq 5 | ./plus)
 
-[ "${out}" = 14 ] || ani ${LINENO}
+[ "${out}" = 15 ] || ani ${LINENO}
 [ "$ret" = 0 ] && echo OK
 
 exit $ret
